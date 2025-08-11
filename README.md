@@ -3,6 +3,10 @@
 This is a JavaFX application that simulates a small board game with cards, pieces (figures), and simple real-time events. Players take turns drawing cards and moving their top piece along a precomputed path on a square grid. Diamonds can appear on the board and speed up pieces; holes can remove pieces. The UI shows the board, the active player, the current card, and a small log/list.
 
 This is a educational project that demonstrates JavaFX UI, basic simulation/threads, and object-oriented design (players, figures, cards, rules).
+<div align="center">
+  <img src="screenshots/example.png" alt="Game Screenshot" width="500">
+</div>
+
 ## What the game does:
 
 - Builds a square board (DIMENZIJA_MATRICE, default 7×7) and a movement path that winds through the grid.
